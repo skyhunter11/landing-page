@@ -47,6 +47,8 @@ ul {
     border: solid green;
     flex-wrap: wrap;
     justify-content: center;
+
+
     
 }
 .leftContent_body1 {
@@ -56,8 +58,9 @@ ul {
     align-items: center;
     flex: 1 1 auto;
 
-    max-width: 220px;
     min-width: 600px;
+    max-width: 220px;
+
 }
 .rightContent_body1 {
     border: solid purple;
@@ -65,8 +68,9 @@ ul {
     flex-direction: column;
     flex: 1 1 auto;
 
-    max-width: 220px;
     min-width: 600px;
+    max-width: 220px;
+    
 }
 
 .body2 {
@@ -90,7 +94,7 @@ ul {
     border: solid darkgray;
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 50px;
     flex-wrap: wrap;
 
   }
@@ -123,15 +127,15 @@ ul {
     display: flex;
     flex-direction: column;
 
-    max-width: 220px;
-    min-width: 800px;
-
-    margin: 100px 0px;
+    min-width: 400px;
+    max-width: 800px;
+    margin: 100px 200px;
+    flex: 1 1 0;
 }
 
 .quote {
     font-style: italic;
-    font-weight: 200;
+    font-weight: 100;
     border: solid black;
 }
 .quotee {
