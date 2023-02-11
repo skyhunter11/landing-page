@@ -74,6 +74,7 @@ ul {
     border-width: thick;
     display: flex;
     flex-direction: column;
+    margin: 70px 0px;
 }
 
 .rowTitle_body2 {
@@ -81,8 +82,8 @@ ul {
     justify-content: center;
     font-size: 36px;
     font-weight: 800;
-    margin: 25px;
     border: solid purple;
+    margin-bottom: 50px;
 }
 
 .tileContainer_body2 {
@@ -91,24 +92,54 @@ ul {
     justify-content: center;
     gap: 25px;
     flex-wrap: wrap;
+
   }
 
-  .tile {
+.tile {
     text-align: center;
     min-height: 210px;
     width: 190px;
-    
     border: dashed darkblue;
-  }
+}
 
-  .tile img {
+.tile img {
     border: solid #3882F6;
     border-width: medium;
     border-radius: 15px;
     padding: 20px;
-  }
+}
 
+.body3 {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    border: dashed lightpink;
+    align-items: center;
+}
 
+.quote-container {
+    border: dashed darkred;
+    display: flex;
+    flex-direction: column;
+
+    max-width: 220px;
+    min-width: 800px;
+
+    margin: 100px 0px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 200;
+    border: solid black;
+}
+.quotee {
+    font-size: 25px;
+    display: flex;
+    justify-content: right;
+    border: solid black;
+}
 
 h1 {
     font-size: 48px;
@@ -121,7 +152,6 @@ button {
     border-radius: 8px;
     background: #3882F6;
     width: 150px;
-    
     
     color: #F9FAF8;
     padding: 8px 16px;
