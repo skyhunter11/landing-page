@@ -20,6 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+
 }
 a {
     font-size: 18px;
@@ -75,7 +76,6 @@ ul {
 
 .body2 {
     border: solid darkcyan;
-    border-width: thick;
     display: flex;
     flex-direction: column;
     margin: 70px 0px;
@@ -161,6 +161,31 @@ button {
     padding: 8px 16px;
     margin-top: 16px;
 
+  }
+
+  .body4 {
+
+  }
+
+  .body4 button {
+    border: solid white;
+  }
+
+  .box {
+    background-color: #3882F6;
+    margin: 10px;
+    border-radius: 15px;
+  }
+
+  .footer {
+    height: 72px;
+    background: #1F2937;
+    color: #F9FAF8;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
   }
 
 
