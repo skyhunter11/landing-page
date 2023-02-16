@@ -173,6 +173,8 @@ button {
     
   }
 
+
+
   .box {
     background-color: #3882F6;
     margin: 90px;
@@ -182,7 +184,15 @@ button {
     align-items: center;
 
     width: 1050px;
-    height: 130px;
+    
+  }
+
+  .box div {
+    /* border: solid brown; */
+  }
+
+  .body4 .box {
+    padding: 60px;
   }
 
   .body4 .header-text {
@@ -195,9 +205,7 @@ button {
     font-weight: 100;
   }
 
-  .box div {
-    /* border: solid brown; */
-  }
+
 
   .footer {
     height: 72px;
