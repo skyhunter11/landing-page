@@ -54,21 +54,27 @@ ul {
     /* border: solid blue; */
     display: flex;
     flex-direction: column;
-    
-    min-width: 600px;
-    max-width: 220px;
     align-items: center;
+    margin: 15px;
+    max-width: 600px;
 
 }
 .rightContent_body1 {
     /* border: solid purple; */
     display: flex;
     flex-direction: column;
-
-    min-width: 600px;
-    max-width: 220px;
+    min-width: 490px;
+    max-width: 600px;
     
 }
+
+
+
+
+
+
+
+
 
 .body2 {
     /* border: solid darkcyan; */
